@@ -1,0 +1,35 @@
+# Maven
+**/target/
+
+# Gradle
+**/build/
+
+# IntelliJ IDEA
+.idea/
+**/.idea/
+*.iml
+
+# VS Code
+.vscode/
+**/.vscode/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Log files
+*.log
+
+# Environment files
+.env
+**/.env
+
+# Java
+*.class
