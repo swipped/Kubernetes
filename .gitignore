@@ -1,14 +1,29 @@
-<<<<<<< HEAD
-# Maven
+# Build Tools & Targets
 **/target/
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
-# Gradle
 **/build/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Language / Runtime Defaults
+*.class
+.kotlin
 
 # IntelliJ IDEA
 .idea/
 **/.idea/
 *.iml
+*.iws
+*.ipr
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
 
 # VS Code
 .vscode/
@@ -18,60 +33,23 @@
 .project
 .classpath
 .settings/
-
-# macOS
-.DS_Store
-
-# Windows
-Thumbs.db
-
-# Log files
-*.log
-
-# Environment files
-.env
-**/.env
-
-# Java
-*.class
-=======
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
-.kotlin
-
-### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
-*.iws
-*.iml
-*.ipr
-
-### Eclipse ###
 .apt_generated
-.classpath
 .factorypath
-.project
-.settings
 .springBeans
 .sts4-cache
 
-### NetBeans ###
+# NetBeans
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
 
-### VS Code ###
-.vscode/
-
-### Mac OS ###
+# System Files
 .DS_Store
->>>>>>> fa4e069f43682ba65cb80d73bc1270f0c76df405
+Thumbs.db
+
+# Logs & Environment
+*.log
+.env
+**/.env
