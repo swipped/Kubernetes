@@ -6,7 +6,6 @@ kubectl port-forward <NAME_OF_POD> 8080:9090
 
 CHECK IF IT IS WORKING:
 
-kubectl logs <NAME_OF_POD> | grep "Server is running on port: 9090"
 http://localhost/users
 
 DELETE WITH:
